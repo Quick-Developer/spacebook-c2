@@ -57,11 +57,11 @@ var SpacebookApp = function () {
 
   var removePost = function (currentPost) {
     var $clickedPost = $(currentPost).closest('.post');
-    var id = $clickedPost.data().id;
+   // var id = $clickedPost.data().id;
 
-    var post = _findPostById(id);
+   // var post = _findPostById(id);
 
-    posts.splice(posts.indexOf(post), 1);
+   // posts.splice(posts.indexOf(post), 1);
     $clickedPost.remove();
   }
 
